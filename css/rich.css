@@ -1,0 +1,316 @@
+body {
+    margin: 0;
+    background-color: lightgray;
+    color: black;
+}
+
+nav.nav-bar {
+    background-color: #000;
+    color: azure;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+
+nav.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    display: flex;
+    column-gap: 0;
+    row-gap: 0;
+    justify-content: flex-end;
+    align-items: center;  
+    min-height: 45px;
+    right: 0;
+    position: sticky;
+}
+
+nav.nav-bar ul li.nav-item {
+    display: inline-block;
+    padding: 0;
+    margin: o;
+    color: azure;
+    position: sticky;
+}
+
+nav.nav-bar ul li.nav-item a.nav-link {
+    color: azure;
+    padding: 7px 15px;
+    text-decoration: none;
+    font-weight: 700;
+    position: sticky;
+}
+
+
+nav.nav-bar a.nav-brand {
+    display: inline-block;
+    height: 100%;
+    margin: auto 30px;
+    color: #ffa500;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: sticky;
+}
+
+/* color: #009e00; Primary color*/
+/* color: #ffa500; Seconadry color*/
+
+
+nav.nav-bar ul li.nav-item a.nav-link:hover {
+    border-bottom: #ffa500 2px solid;
+    color: #000;
+    background-color: #ffa500;
+    position: sticky;
+}
+
+header {
+    background: linear-gradient( #fff,#4444ae,gray,burlywood);
+    height: 110px;
+}
+
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-style: oblique;
+    margin-top: 0;
+    color: #f6b53d;
+    text-shadow: 4px 3px lightgray;
+}
+
+h1:hover {
+    color: #000;
+}
+
+header p.h1 {
+    color: #352424;
+    font-size: small;
+    text-align: center;
+    margin: 0;
+    padding-left: 200px;
+    font-style: normal;
+}
+
+h2, h3 {
+    font-size: xx-large;
+    color: #4444ae;
+    margin: 7px;
+}
+
+
+
+section {
+    padding: 1rem ;
+}
+
+.row {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.img-cont {
+    width: 100%;
+}
+
+.img-cont img {
+    width: 100%;
+    height: auto;
+}
+
+div.form-cont {
+    padding: 1.5rem 1rem;
+    border: 1px #009e00 solid;
+    border-radius: .5em;
+}
+
+div.form-row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: inline-flex;
+    column-gap: 10px;
+}
+
+div.input-cont {
+    background-color: #f6f6f6;
+    padding: 5px;
+    border-radius: 3px;
+    /* width: 95%; */
+}
+
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 3px;
+}
+
+input, textarea {
+    width: 96%;
+}
+
+textarea {
+    height: 100px;
+    width: 98%;
+}
+
+select {
+    width: 100%;
+}
+
+div.cg-0 {
+    column-gap: 0;
+}
+
+div.btn-cont {
+    width: 100%;
+}
+
+div.btn-cont button {
+    padding: 10px 20px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #009e00;
+    border-radius: 1.5em;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+div.btn-cont button:hover {
+   background-color: #ffa500;
+   color: #000;
+}
+
+.img-cont, .vid-cont {
+    width: 100%;
+}
+
+.img-cont img {
+    width: 100%;
+    height: auto;
+}
+
+.vid.cont video {
+    width: 100%;
+    /* height: 250px; */
+}
+
+div.details {
+    width: 100%;
+    height: 250px;
+}
+
+div.details img {
+    width: 100%;
+    height: 250px;
+    overflow: clip;
+}
+
+.col-6 a.shop {
+    text-align: center;
+    color: #009e00;
+    font-size: large;
+}
+
+div.location img.location {
+    height: 15px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+div.location p {
+    display: inline;
+    color: #009e00;
+}
+
+div.map {
+    margin-top: 0;
+    padding-top: 0;
+    /* text-align: center;   */
+}
+
+img.social {
+    height: 50px;
+    border-radius: 2em;
+}
+
+a {
+    padding: 20px;
+}
+
+div.social-media {
+    text-align: center;
+}
+
+div.legal {
+    margin: 20px 0 0 0;
+}
+
+div.about h3 {
+    text-align: center;
+}
+
+div.registered {
+    width: 90%;
+    height: 250px;
+}
+
+img.registered {
+    width: 100%;
+    height: auto;
+}
+
+.col-6-1 {
+    width: 60%;
+}
+
+.col-6-2 {
+    width: 40%;
+}
+
+ol li {
+    list-style: disc;
+}
+
+div.legal {
+    text-align: center;
+}
+
+footer.links {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer {
+    /* margin-bottom: 20px; */
+    padding-bottom: 50px;
+}
+
+strong {
+    padding-left: 15px;
+}
+
+ol li.nav-item {
+    /* display: flex; */
+    display: inline-block;
+}
+
+ol a.nav-link {
+    color: #4444ae;
+    text-decoration: none;
+    font-size: larger;
+}
